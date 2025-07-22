@@ -2,6 +2,7 @@ const fibonacci = function(num) {
     let number = Number(num);
     if (number < 0) { return "OOPS"; }
     if (number == 0) { return 0; }
+    
     let veryLast = 0
     let previous = 1;
     let current = 1;
